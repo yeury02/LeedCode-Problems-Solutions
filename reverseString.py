@@ -8,7 +8,6 @@ class Solution:
     def reverseString(self, s):
         start = 0
         end = len(s) - 1
-
         while (start < end):
             tmp = s[start]
             s[start] = s[end]
