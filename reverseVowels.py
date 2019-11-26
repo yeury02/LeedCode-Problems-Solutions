@@ -1,4 +1,6 @@
-
+#Implement a function that reverses vowels in a given word
+#for Instance: Input: "Hello"
+            #  Output: "Holle"
 class Solution:
     #This function is not completed it, come back to it!!!!
     def reverseVowels(self, s):
