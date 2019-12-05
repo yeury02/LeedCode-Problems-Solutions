@@ -22,3 +22,6 @@ class Solution:
                 count += 1
 
         return count
+s = "RLRRLLRLRL"
+object = Solution()
+print(object.balancedStringSplit(s))
