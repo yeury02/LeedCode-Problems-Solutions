@@ -1,9 +1,8 @@
-Balanced strings are those who have equal quantity of 'L' and 'R' characters.
+#Balanced strings are those who have equal quantity of 'L' and 'R' characters.
 
-Given a balanced string s split it in the maximum amount of balanced strings.
+#Given a balanced string s split it in the maximum amount of balanced strings.
 
-Return the maximum amount of splitted balanced strings.
-
+#Return the maximum amount of splitted balanced strings.
 
 class Solution:
     def balancedStringSplit(self, s):
@@ -18,7 +17,7 @@ class Solution:
             if lcount == rcount:
                 count += 1
         return count
-    
+
 s = "RLRRLLRLRL"
 object = Solution()
 print(object.balancedStringSplit(s))
