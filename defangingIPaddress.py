@@ -21,4 +21,5 @@ class Solution:
 
 address = "1.1.1.1"
 object = Solution()
+#result should be "1[.]1[.]1[.]1
 print(object.defangIPaddr(address))
