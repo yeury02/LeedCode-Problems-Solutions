@@ -3,7 +3,7 @@
 #A defanged IP address replaces every period "." with "[.]".
 
 #For Instance- Input: address = "1.1.1.1"   address = "255.100.50.0"
-              #Output: "1[.]1[.]1[.]1"      "255[.]100[.]50[.]0"
+              #Output: "1[.]1[.]1[.]1"     "255[.]100[.]50[.]0"
 
 class Solution:
     def defangIPaddr(self, address):
