@@ -1,4 +1,4 @@
-# LeedCode && Interview
+# LeedCode && Interview questions
 
 Interview questions and solutions!!
 
