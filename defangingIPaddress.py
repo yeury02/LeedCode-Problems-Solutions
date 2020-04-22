@@ -15,7 +15,7 @@ class Solution:
                 result.append('[.]')
                 continue
             result.append(address[i])
-            # joins/puts together everything in a list as a string
+            # joins puts together everything in a list as a string
         return "".join(result)
 
 
